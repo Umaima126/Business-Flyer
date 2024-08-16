@@ -1,0 +1,375 @@
+
+html,body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x:  hidden;
+
+}
+.p1{
+    position: relative;
+    background-color: whitesmoke;
+    height: 150px;
+    width: 100%; 
+    right: 0px;
+  
+    
+}
+.righttxt1
+{
+    position: absolute;
+    top: 50px;
+    right: 70px;
+    float: right;
+    color :#ffd700;
+    text-decoration: solid;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.rightbox1
+{
+    position: absolute;
+    right: 0px;
+    top: 45px;
+    height: 60px;
+    width: 60px;
+    background-color :#ffd700;
+}
+
+
+.leftbox1
+{
+    position: absolute;
+    top: 0px;
+    left: 140px;
+    height: 150px ;
+    width: 14%;
+    background-color :#ffd700;
+    opacity: 0.7;
+}
+.leftbox1txt1
+{
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    color: white;
+    text-decoration: solid;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+
+}
+.leftbox1txt2
+{
+    position: absolute;
+    top: 97px;
+    left: 150px;
+    color: white;
+    text-decoration: solid;
+    font-weight: 200px;
+   font-family: sans-serif;
+    font-size: 15px;
+ 
+}
+
+.p2
+{
+    position: relative;
+    background-color: dimgrey;
+    height: 250px;
+    width: 100%;  
+   
+}
+
+.corporate
+{
+    position: absolute;
+    font-size: 30px;
+    top: 50px;
+    right: 67px;
+    float: right;
+    color: black;
+    text-decoration: solid;
+}
+.business
+{
+    position: absolute;
+    font-size: 50px;
+    font-weight: bolder;
+    top: 79px;
+    right: 62px;
+    float: right;
+    color:#ffd700;
+    text-decoration: solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.flyer
+{
+    position: absolute;
+    font-size: 25px;
+    top: 135px;
+    right: 60px;
+    float: right;
+    color: black;
+    text-decoration: solid;
+    font-weight: 100;
+}
+.rightbox2txt1
+{  position: absolute;
+    float: right;
+    color: white;
+    right: 60px;
+    top:180px;
+   
+}
+
+.leftbox2
+{
+    position: absolute;
+    top: 0px;
+    left: 140px;
+    height: 250px ;
+    width: 14%;
+    background-color :#ffd700;
+    opacity: 0.7;
+}
+
+.leftbox2txt1
+{
+    position: absolute;
+    top: 160px;
+    left: 150px;
+    color: white;
+    text-decoration: solid;
+    font-weight: 200px;
+    font-size: 11px;
+ font-family: sans-serif;
+ 
+}
+.leftwhitebox
+{
+    position: absolute;
+    top: 140px;
+    left: 150px;
+    height: 12px ;
+    width: 3%;
+    background-color:white;
+
+}
+
+
+.p3{
+    position:relative;
+    background-color: black;
+    height: 610px;
+    width: 100%;
+ 
+    
+}
+.bkimg{
+position:absolute;
+background-image: url(hd3.jpg);
+background-size: cover;
+background-position: top;
+opacity: 0.8;
+height: 500px;
+width: 100%;
+right: 0px;  
+}
+.headline
+{
+    position:absolute;
+    top: 120px;
+    right: 70px;
+    float: right;
+    color: white;
+    text-decoration: solid;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.l
+{
+    position:absolute;
+    top: 180px;
+    right: 70px;
+    float: right;
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.threesixty
+{
+    position:absolute;
+    top: 240px;
+    right: 70px;
+    color: white;
+    text-decoration: solid;
+    font-size :50px;;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lorem1
+{   position:absolute;
+     top: 300px;
+     right: 50px;
+    color: white;
+    text-align: end;
+   
+}
+
+.lorem2
+{    
+    position:absolute;
+    top: 380px;
+    right:57px;
+    font-weight: 400;
+    text-align: end;
+    color: gold;
+}
+
+.leftbox3
+{
+    position: absolute;
+    left: 140px;
+    height: 250px ;
+    width: 14%;
+    background-color :#ffd700;
+   opacity: 0.7;
+}
+.leftbox4
+{
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    height: 360px ;
+    width: 25%;
+    background-color:black;
+
+}
+
+.london
+{
+    position: absolute;
+    top: 365px;
+    left: 90px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.london ul{
+    padding-left: 0;
+    list-style: none;
+    list-style-image: url(icons8-location-28.png);
+}
+
+.london li{
+    list-style-position: inside;
+    font-size:small;
+    color: white;
+}
+
+.number
+{
+    position: absolute;
+    top: 420px;
+    left: 90px;
+
+}
+
+.number ul{
+    padding-left: 0;
+    list-style: none;
+    list-style-image: url(icons8-call-23.png);
+}
+
+.number li{
+    list-style-position: inside;
+    color: white;
+    font-size: small;
+
+}
+
+.mail
+{
+    position: absolute;
+    top: 470px;
+    left: 90px;
+    color: white;
+    list-style-image: url(icons8-composing-mail-23.png);
+}
+.mail ul{
+    padding-left: 0;
+    list-style: none;
+    list-style-image: url(icons8-composing-mail-23.png);
+}
+
+.mail li{
+    list-style-position: inside;
+    color: white;
+    font-size: small;
+
+}
+
+.website
+{
+   position: absolute;
+   top: 550px;
+    left: 120px;
+    color:gold;
+
+}
+.leftwhitebox2
+{
+    position: absolute;
+    top: 79px;
+    left: 150px;
+    height: 12px ;
+    width: 3%;
+    background-color:white;
+
+}
+.leftbox3txt
+{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    color: white;
+    text-decoration: solid;
+    font-weight: 200px;
+    font-size: 15px;
+ font-family: sans-serif;
+
+}
+
+
+.l1{
+    position: absolute;
+    top: 500px;
+    right: 69px; ;
+    list-style-image: url(icons8-logo-64.png);
+}
+.l2{
+    position: absolute;
+    top: 500px;
+    right: 200px; ;
+    list-style-image: url(icons8-logo2-64.png);
+}
+.l3{
+    position: absolute;
+    top: 500px;
+    right: 350px; ;
+    list-style-image: url(icons8-processor-64.png);
+}
+
+.l4{
+    position: absolute;
+    top: 500px;
+    right: 500px; ;
+    list-style-image: url(icons8-hexagon-64.png);
+}
